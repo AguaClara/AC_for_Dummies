@@ -1,0 +1,214 @@
+/* Impact Page Start */
+#impact_banner {
+    background-image: url("../images/impact_banner.jpg");
+    height:60%;
+    top:50px;
+    margin-top: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .testimonials {
+    margin-left: 75%;
+  }
+  
+  #impact_title{
+    color:white;
+    font-size: 55px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 4px black;
+  
+  }
+  #impact_banner2 {
+    background-image: url("../images/impact_banner_alt.jpg");
+    height:50%;
+    top:50px;
+    margin-top: 10px;
+    background-position: bottom -100px right 0px;;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  #impact_title2{
+    color:white;
+    font-size: 55px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 4px black;
+  
+  }
+  #impact_map1{
+  float: left;
+  margin-left:10%;
+  margin-top:100px;
+  margin-bottom: 100px;
+  position:relative;
+  
+  }
+  #impact_map2{
+  float: right;
+  margin-right:10%;
+  margin-top:100px;
+  margin-bottom: 100px;
+  position:relative;
+  }
+  
+  #pp_table{
+    width:100%;
+    margin-top:150px;
+    padding-right:5%;
+    padding-left:5%;
+    margin-bottom:100px;
+  }
+
+  .center {
+    margin-left: 80%;
+  }
+
+  h2 {
+    /* margin-left: 75%; */
+  }
+  
+  tr{
+    width:100%;
+  }
+  td{
+    padding-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight:lighter;
+    text-align: left;
+  }
+  .material-icons{
+    font-size: 48px !important;
+    color:#0073cf;
+  }
+  #break{
+    clear:both;
+  }
+  /* Impact Page End */
+
+  * {box-sizing:border-box}
+
+  /* Slideshow container */
+  .slideshow-container {
+    /* max-width: 90%; */
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  .click {
+    margin-left: 38%;
+    width: 25%;
+    height: 100%;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .poster {
+    width: 95%;
+    margin-right: 50%;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    /* color: #f2f2f2; */
+    font-size: 15px;
+    /* padding: 8px 12px; */
+    position: absolute;
+    /* bottom: 50%; */
+    /* top: 80%; */
+    width: 100%;
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .poster {
+    margin-left: 40%;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 4s;
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .8}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .8}
+    to {opacity: 1}
+  }
+  
