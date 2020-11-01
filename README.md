@@ -15,7 +15,7 @@ Creating an easy to understand and technically in depth material for incoming me
 * Create a table explaining when to use what technology for specific types of water inputs 
 * Create a handbook that explains what AguaClara is, its technologies, and its current undertakings
 
-## Links to Reports and Presentations
+## Links to Reports and Presentations:
 
 * [Fall 2020 Symposium](https://docs.google.com/presentation/d/11Rt823LP0TbSwM3BzIBZlTfr_wOY-I42A4QEVqbqbFs/edit?usp=sharing)
 
